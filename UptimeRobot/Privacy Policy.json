@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:24.733Z",
+    "serviceName": "UptimeRobot",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://uptimerobot.com/privacy/",
+        "select": "main",
+        "filter": [
+          "convertSpacesToStandard"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "9359aed61fb0fcdf1b7de809d78131af44e75524"
+      }
+    ]
+  }
+}
