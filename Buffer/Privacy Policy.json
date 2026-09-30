@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:08.699Z",
+    "serviceName": "Buffer",
+    "sourceDocuments": [
+      {
+        "id": "legal",
+        "fetch": "https://buffer.com/legal",
+        "select": [
+          "[aria-labelledby=privacy-policy]",
+          "[aria-labelledby=crpn]",
+          "[aria-labelledby=gdpr]",
+          "[aria-labelledby=dpf]",
+          "[aria-labelledby=data-retention]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b37f13e79e3fad92148e4814bc51f93ef2698aa8"
+      }
+    ]
+  }
+}
