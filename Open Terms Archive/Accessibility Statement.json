@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:30:22.724Z",
+    "serviceName": "Open Terms Archive",
+    "sourceDocuments": [
+      {
+        "id": "en-accessibility",
+        "fetch": "https://opentermsarchive.org/en/accessibility/",
+        "select": ".textcontent",
+        "mimeType": "text/html",
+        "snapshotId": "201040b2b0d17f74f991d3f5fa9759ecbc269e1d"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".textcontent\" has no match in the web page at 'https://opentermsarchive.org/en/accessibility/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
