@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:30:04.199Z",
+    "serviceName": "Brevo",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacypolicy",
+        "fetch": "https://www.brevo.com/legal/privacypolicy/",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "77170ab1b0080cceb80a5c15a33550708a47ce70"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"main\" has no match in the web page at 'https://www.brevo.com/legal/privacypolicy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
