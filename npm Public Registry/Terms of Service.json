@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:17.414Z",
+    "serviceName": "npm Public Registry",
+    "sourceDocuments": [
+      {
+        "id": "policies-open-source-terms",
+        "fetch": "https://docs.npmjs.com/policies/open-source-terms",
+        "select": [
+          "[as=\"main\"]"
+        ],
+        "remove": [
+          "nav",
+          "details"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "639f8643a9698b8364d7d27fb29fc2f1c6227677"
+      }
+    ]
+  }
+}
