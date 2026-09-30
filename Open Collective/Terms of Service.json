@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:19.785Z",
+    "serviceName": "Open Collective",
+    "sourceDocuments": [
+      {
+        "id": "tos",
+        "fetch": "https://opencollective.com/tos",
+        "select": ".markdown",
+        "mimeType": "text/html",
+        "snapshotId": "a67092144ef6c49af4bc88ec410d10f7af44320a"
+      }
+    ]
+  }
+}
