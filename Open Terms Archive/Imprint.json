@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:22.149Z",
+    "serviceName": "Open Terms Archive",
+    "sourceDocuments": [
+      {
+        "id": "en-legal-notice",
+        "fetch": "https://opentermsarchive.org/en/legal-notice",
+        "select": ".textcontent",
+        "mimeType": "text/html",
+        "snapshotId": "0bb21b6421df2159c6f356d4e049512fe06a5cd0"
+      }
+    ]
+  }
+}
