@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:18.766Z",
+    "serviceName": "npm Public Registry",
+    "sourceDocuments": [
+      {
+        "id": "policies-dmca",
+        "fetch": "https://docs.npmjs.com/policies/dmca",
+        "select": [
+          "[as=\"main\"]"
+        ],
+        "remove": [
+          "nav",
+          "details"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "609faf101450bf6bdc166dbc16d1c55e2ebac820"
+      }
+    ]
+  }
+}
