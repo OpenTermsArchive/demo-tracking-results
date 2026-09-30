@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:15.778Z",
+    "serviceName": "npm Public Registry",
+    "sourceDocuments": [
+      {
+        "id": "policies-privacy",
+        "fetch": "https://docs.npmjs.com/policies/privacy",
+        "select": {
+          "startBefore": "h1",
+          "endBefore": "#toc-heading"
+        },
+        "remove": "details",
+        "mimeType": "text/html",
+        "snapshotId": "484d19a385e611457202402fefb8147269d2b460"
+      }
+    ]
+  }
+}
