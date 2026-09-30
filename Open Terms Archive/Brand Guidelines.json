@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:23.373Z",
+    "serviceName": "Open Terms Archive",
+    "sourceDocuments": [
+      {
+        "id": "en-brand-guidelines",
+        "fetch": "https://opentermsarchive.org/en/brand-guidelines/",
+        "select": [
+          ".container--98"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "9b8c274ac7306e93e78cbf0c8b6992e55c5c2904"
+      }
+    ]
+  }
+}
