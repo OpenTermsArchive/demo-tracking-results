@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:11.382Z",
+    "serviceName": "Buffer",
+    "sourceDocuments": [
+      {
+        "id": "legal",
+        "fetch": "https://buffer.com/legal",
+        "select": [
+          "[aria-labelledby=api]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "94727d78bbedde60b1ce3d4c957d4069931d6ac5"
+      }
+    ]
+  }
+}
