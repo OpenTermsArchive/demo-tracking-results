@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:13.274Z",
+    "serviceName": "GitHub",
+    "sourceDocuments": [
+      {
+        "id": "en-free-pro-team@latest-github-site-policy-github-terms-of-service",
+        "fetch": "https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-terms-of-service",
+        "select": "#article-contents",
+        "mimeType": "text/html",
+        "snapshotId": "8cea8c49b2f90ef848f084a93b5971596e9b9704"
+      }
+    ]
+  }
+}
