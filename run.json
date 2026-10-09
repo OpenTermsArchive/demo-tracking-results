@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-b0773d95-064c-4e34-b35d-271b37ed8572",
+  "runId": "ota-run-8154ea3c-8fcf-407b-a4dc-c199821e8884",
   "collectionId": "demo",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-08T12:30:02.324Z",
-    "endDate": "2026-10-08T12:30:21.565Z",
+    "startDate": "2026-10-09T00:30:02.020Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "a2ea9f361d1a82a8325c75ab84c41a902c7eee69",
@@ -14,11 +14,11 @@
     "terms": 19
   },
   "tracked": {
-    "ok": 17,
-    "failed": 2
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 19,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
