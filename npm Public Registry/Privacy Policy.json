@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T00:30:15.778Z",
+    "date": "2026-11-19T00:30:26.730Z",
     "serviceName": "npm Public Registry",
     "sourceDocuments": [
       {
@@ -13,8 +13,13 @@
         },
         "remove": "details",
         "mimeType": "text/html",
-        "snapshotId": "484d19a385e611457202402fefb8147269d2b460"
+        "snapshotId": "977e2a33d71074f45cd1514f5fe37d6f110b24ad"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://docs.npmjs.com/policies/privacy'"
+      ]
+    }
   }
 }
